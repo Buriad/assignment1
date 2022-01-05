@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #form-example {
+            background-color: orange; 
+            color: red; 
+        }
+    </style>
+</head>
+<body>
+    <form action="" method="" class="form-example">
+        <div class="form-example">
+            <label for="name">Enter your name:</label>
+            <input type="text" name="name" id="required">
+        </div>
+        <div class="form-example">
+            <label for="e-mail">Enter your e-mail:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div id="form-example">
+            <input type="submit" value="Subscribe">
+        </div>
+
+        <div class="form-example">
+            <label for="story">Tell us your story</label>
+            <textarea name="story" id="story" cols="30" rows="10">It was a dark and stormy night</textarea>
+        </div>
+        <br>
+        
+        <div class="select your membership status">
+
+        <label for="membership">Enter your membership status:</label>
+        <br>
+        <br>
+        <label for="standard">standard</label>
+        <input type="radio" id="standard" name="standard" value="standard">
+        <br>
+        <label for="starter">starter</label>
+        <input type="radio" id="starter" name="starter" value="starter">
+        <br>
+        <label for="VIP">VIP</label>
+        <input type="radio" id="VIP" name="VIP" value="VIP">
+       
+        </div>
+<br>
+        <div>
+            <label for="jobs">Enter your job:</label>
+            <select name="jobs" id="jobs">
+                <option value="jobs">Web developer</option>
+                <option value="jobs">Web design</option>
+            </select>
+        </div><br>
+
+        <div>
+            <p>Enter your hobbies:</p>
+            <label for="table tennis">Table tennis</label>
+            <input type="checkbox" name="table tennis" id="table tennis"><br>
+            <label for="Boxing">Boxing</label>
+            <input type="checkbox" name="boxing" id="boxing">
+
+        </div>
+    </form>
+</body>
+</html>

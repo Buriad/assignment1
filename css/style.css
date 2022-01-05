@@ -1,0 +1,150 @@
+.container{
+    max-width: 1280px; 
+    margin: 0 auto; 
+}
+.navbar-menu-lists{
+    list-style: none; 
+}
+.navbar-menu-lists li a{
+    text-decoration: none;
+}
+.navbar-body {
+    display: flex; 
+    justify-content: space-between;
+}
+.navbar-menu-lists {
+    display: flex;
+    margin: 0; 
+}
+.navbar-menu-lists li {
+    margin: 0 20px; 
+}
+.header-content-body {
+    display: flex;
+}
+.main-header {
+background-color: #DCEAF5;
+}
+h2 {
+    font-size: 48px;
+}
+.header-content-logos {
+    display: flex;
+}
+.header-content-logos img{
+    width: 100px; 
+} 
+.header-btn {
+    text-decoration: none;
+}
+.row {
+    display: flex; 
+    flex-wrap: wrap;
+}
+img {
+    border-radius: 20px;
+}
+.section-solution-heading img {
+    width: 30px; 
+}
+.section-solution {
+    background-color: #DCEAF5;
+}
+.card-thumbnail {
+    background-color: white;
+    border-radius: 20px;
+}
+.number15 {
+    color: #F58A07; 
+    font-size: 30px;
+}
+body {
+    font-size: 24px;
+    font-family: Poppins;
+}
+.col-3 {
+    width: calc(100%/3 - 30px);
+    padding: 10px;
+}
+.col-3:first-child {
+    margin-left: 0;
+}
+button {
+    font: #F58A07; 
+}
+
+a {
+    color: #F58A07; 
+    text-decoration: none;
+}
+
+.col-2 {
+    width: calc(100%/2 - 30px); 
+    }
+
+.col-2:first-child {
+    margin-left: 0;
+}
+
+.number500 {
+    color: #F58A07; 
+    font-size: 30px;
+}
+span {
+    display: flex; 
+
+}
+
+.section-vacancies img {
+    width: 400px; 
+}
+
+@media(min-width: 800px){
+    .navbar-body{
+        background: chocolate;
+        display: 30px; 
+    }
+    }
+
+    .clearfix:before,
+    .clearfix:after{
+        content: "";
+        display: table; 
+    }
+    .clearfix:after{
+        clear: both;
+    }
+
+    .clearfirx{
+        *zoom: 1
+    }
+@media screen and (min-width: 768px) {
+    .title{
+        float: left;
+        font-size: 1.4rem;
+    }
+    nav{
+        float: right;
+        width: 60%;
+    }
+    nav a{
+        padding: 15 px 1%;
+    }
+    .main article{
+        float: left;
+        width: 57%;
+    }
+    .main aside{
+        float: right;
+        width: 38%; 
+    }
+
+    @media screen and (min-width: 1140px) {
+        .wrapper{
+            width: 1024px;
+            margin: 0 auto;
+        }
+    .title{
+        font-size: 2rem; 
+
+    }
