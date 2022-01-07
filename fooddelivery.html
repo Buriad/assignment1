@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food delivery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="fooddeliver.css">
+</head>
+<body>
+    <!--Section 1-Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="#">Food Delivery</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="Нүүр" href="#">Hүүр</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Хоолны цэс">Хоолны цэс</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Хүргэлтийн бүс" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Хүргэлтийн бүс
+                </a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Сагс" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Сагс
+                </a>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="Нэвтрэх" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Нэвтрэх
+                </a>
+          </div>
+        
+    </nav>
+    <!-- Section 2-Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://placeimg.com/640/240/any"class="d-block w-100 img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>MStars Food Delivery</h5>
+            <p>Хосгүй амтыг хормын дотор хүргэж өгнө.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://placeimg.com/640/240/any" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide label</h5>
+            <p>Some representative placeholder content for the second slide.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://placeimg.com/640/240/any" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide label</h5>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+      <!-- Section 3 -Fast delivery -->
+        <div class="container">
+            <div class="row">
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Шуурхай хүргэлт</h5>
+                    <p class="card-text">30 минутанд таны гарт</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Эрүүл, баталгаат орц</h5>
+                    <p class="card-text">Хамгийн чанартайг танд</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Өргөн сонголт</h5>
+                    <p class="card-text">Хамгийн онцгойг танд</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+    
+    <!-- section 4 -Discounts-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-2">
+          <h5>Хямдралтай</h5>
+        </div>
+        <div class="col-2">
+          <a href="Бүгдийг харах">Бүгдийг харах</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content-discounted">
+        <div class="row justify-content-between">
+          <div class="col-3">
+            <div class="card">
+              <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Icecream</h5>
+                <p class="card-text">4,760 T  6,800 T</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pancake</h5>
+                <p class="card-text">4,800 T 6,800 T</p>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="card">
+              <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Breakfast</h5>
+                <p class="card-text">4,800 T 6,800 T</p>
+                
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-3">
+            <div class="card">
+              <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Banana sandwich</h5>
+                <p class="card-text">4,800 T 6,800 T</p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 5-Main dishes-->
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-2">
+          <h5>Үндсэн Хоол</h5>
+        </div>
+        <div class="col-2">
+          <a href="Бүгдийг харах">Бүгдийг харах</a>
+        </div>
+      </div>
+    </div>
+
+  <div class="container">
+    <div class="content-maindishes">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Salmon fish</h5>
+              <p class="card-text">11,800 T</p>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Meat balls</h5>
+              <p class="card-text">14,000 T</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nuts mash</h5>
+              <p class="card-text">9,800 T</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Chicken burger</h5>
+              <p class="card-text">14,000 T</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section 6-Salads -->
+
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-2">
+        <h5>Салад ба зууш</h5>
+      </div>
+      <div class="col-2">
+        <a href="Бүгдийг харах">Бүгдийг харах</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content-salads">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Detox salad</h5>
+              <p class="card-text">6,800 T</p>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cobb salad</h5>
+              <p class="card-text">6,800 T</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Avocado salad</h5>
+              <p class="card-text">6,800 T</p>
+              
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sandwich</h5>
+              <p class="card-text">4,800 T</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- section 7-Desserts -->
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-2">
+        <h5>Амттан</h5>
+      </div>
+      <div class="col-2">
+        <a href="Бүгдийг харах">Бүгдийг харах</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="content-desserts">
+      <div class="row">
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Donats</h5>
+              <p class="card-text">5,800 T</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oreo dessert</h5>
+              <p class="card-text">7,800 T</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wafle</h5>
+              <p class="card-text">5,800 T</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-3">
+          <div class="card">
+            <img src="https://placeimg.com/60/40/nature" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Macaron</h5>
+              <p class="card-text">3,800 T</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- section Footer-->
+
+<footer>
+  <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <h3>Food Delivery</h3>
+        </div>
+        <div class="col-4">
+            <ul>
+              <li><a href="https:google.com">Home</a></li>
+              <li><a href="https:google.com">Menu</a></li>
+              <li><a href="https:google.com">Delivery zones</a></li>
+            </ul>
+        </div>
+        <div class="col-4">
+          <ul>
+            <li><a href="https:google.com">Contact details</a></li>
+            <br>
+            <p>(976) 77123456</p>
+            <p>(976) 77123456</p>
+          </ul>
+        </div>
+      </div>
+  </div>
+  <div class="container">
+      <div class="row">
+            <div class="col-3">
+              <h6>Бидэнтэй нэгдээрэй</h6>
+              <img src="#" alt="Facebook-logo">
+              <img src="#" alt="Instagram-logo">
+              <img src="#" alt="Twitter-logo">
+            </div>
+            <div class="col-3">
+              <h6>Үйлчилгээний нөхцөл</h6>
+            </div>
+            <div class="col-3">
+              <h6>Нууцлалын бодлого</h6>
+            </div>
+            <div class="col-3">
+              <h6>&copy; 2020 MStars Foods LLC</h6>
+              <h6>Зохиогчийн эрх хуулиар хамгаалагдсан</h6>
+            </div>
+      </div>
+    </div>
+</footer>
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  
+
+</body>
+</html>
