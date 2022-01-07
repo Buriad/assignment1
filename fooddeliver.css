@@ -1,0 +1,42 @@
+.container {
+    /* display: flex; */
+    /* margin: 0 auto;  */
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.col-1 {
+    width: 0 auto; 
+}
+
+.carousel-caption p{
+color: orange;
+}
+
+.carousel-caption h5{
+    color: orange;
+}
+.col-2 a{
+    color: white; 
+    border: solid 10px orange; 
+    padding: orange; 
+    background-color: orange;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 auto; 
+    
+}
+
+.col-2 h5{
+    border-left: solid 10px orange; 
+
+}
+.container h3{
+    color: orange; 
+}
+ .last-section ul{
+     list-style: none;
+ }
+
