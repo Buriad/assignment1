@@ -1,10 +1,5 @@
-.container {
-    /* display: flex; */
-    /* margin: 0 auto;  */
-}
-
-.row {
-    margin-top: 100px;
+.nav-bar-brand {
+color:#F77F00;
 }
 
 .col-1 {
@@ -33,13 +28,14 @@ color: orange;
     border-left: solid 10px orange; 
 
 }
-.container h3{
-    color: orange; 
-}
- 
+ /* Footer */
  footer {
      background-color: #F77F00; 
      color: white; 
+ }
+
+ footer a{
+     color: white;
  }
 
  footer ul{
@@ -47,3 +43,18 @@ color: orange;
 
  }
  
+ .info-container{
+     background-color: white;
+     border-radius: 20px;
+     box-shadow: 0 0 30px rgba(0,0,0,.1);
+     padding: 30px;
+     margin: 40px; 
+ }
+
+ .discount-container{
+     background-color: white;
+     border-radius: 30px;
+     box-shadow: 0 0 30px rgba(0,0,0,.1);
+     padding: 30px;
+
+ }
