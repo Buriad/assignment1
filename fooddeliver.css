@@ -36,7 +36,14 @@ color: orange;
 .container h3{
     color: orange; 
 }
- .last-section ul{
-     list-style: none;
+ 
+ footer {
+     background-color: #F77F00; 
+     color: white; 
  }
 
+ footer ul{
+     list-style: none;
+
+ }
+ 
