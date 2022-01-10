@@ -1,6 +1,3 @@
-.nav-bar-brand {
-color:#F77F00;
-}
 
 .col-1 {
     width: 0 auto; 
@@ -32,6 +29,7 @@ color: orange;
  footer {
      background-color: #F77F00; 
      color: white; 
+     margin-top: 100px;
  }
 
  footer a{
@@ -43,7 +41,7 @@ color: orange;
 
  }
  
- .info-container{
+ .info-container {
      background-color: white;
      border-radius: 20px;
      box-shadow: 0 0 30px rgba(0,0,0,.1);
@@ -51,10 +49,68 @@ color: orange;
      margin: 40px; 
  }
 
- .discount-container{
+ .discount-container {
      background-color: white;
      border-radius: 30px;
      box-shadow: 0 0 30px rgba(0,0,0,.1);
      padding: 30px;
-
  }
+
+ .maindish-container {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    padding: 30px;
+}
+
+.salad-container {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    padding: 30px;
+}
+
+.dessert-container {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+    padding: 30px;
+}
+
+ .section-1{
+    margin-bottom: 20px;
+ } 
+ .section-2 {
+     margin: 20px; 
+ }
+ .section-3 {
+     margin: 20px; 
+ }
+ .section-4 {
+     margin: 20px; 
+ }
+ .section-5 {
+     margin: 20px; 
+ }
+ .section-6 {
+     margin: 20px; 
+ }
+ .section-7 {
+     margin: 20px; 
+ }
+ .section-8 {
+     margin: 20px
+ }
+
+ html,body {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .navbar-lists ul{
+     float: right; 
+ }
+
+ a.navbar-brand{
+     color: orange; 
+ }
+ 
